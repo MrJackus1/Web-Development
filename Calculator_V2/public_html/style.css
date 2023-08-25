@@ -1,0 +1,32 @@
+body {
+    background-color: aliceblue;
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 12px;
+}
+.grid-container > div {
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+.display {
+  grid-area: 1 / 1 / 1 / 4;
+}
+.item15 {
+	grid-area: 5 / 1 / 5 / 4;
+}
+.item16 {
+	grid-area: 5 / 4 / 5 / 5;
+}
